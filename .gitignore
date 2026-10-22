@@ -37,4 +37,5 @@
 /*/*/logs
 /cmd/api/config
 /.DS_Store
+/.local_demo/
 /cmd/.DS_Store

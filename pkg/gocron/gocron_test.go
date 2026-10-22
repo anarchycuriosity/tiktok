@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/bytedance-youthcamp-jbzx/dousheng/pkg/gocron"
+	"github.com/bytedance-youthcamp-jbzx/tiktok/pkg/gocron"
 )
 
 func task() {

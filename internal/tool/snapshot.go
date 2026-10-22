@@ -3,7 +3,7 @@ package tool
 import (
 	"bytes"
 	"fmt"
-	"github.com/bytedance-youthcamp-jbzx/dousheng/pkg/zap"
+	"github.com/bytedance-youthcamp-jbzx/tiktok/pkg/zap"
 	"github.com/disintegration/imaging"
 	ffmpeg "github.com/u2takey/ffmpeg-go"
 	"os"

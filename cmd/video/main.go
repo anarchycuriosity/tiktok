@@ -48,7 +48,6 @@ func main() {
 		server.WithMiddleware(middleware.ServerMiddleware),
 		server.WithRegistry(r),
 		//server.WithLimit(&limit.Option{MaxConnections: 1000, MaxQPS: 100}),
-		server.WithMuxTransport(),
 		// server.WithSuite(tracing.NewServerSuite()),
 		server.WithServerBasicInfo(&rpcinfo.EndpointBasicInfo{ServiceName: serviceName}),
 	)
